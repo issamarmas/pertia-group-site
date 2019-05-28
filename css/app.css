@@ -1,0 +1,153 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    clear: both;
+    transition: all ease-out .4s !important;
+    font-family:  'Dubai Light';
+}
+
+/** install font-family **/
+@font-face {
+    font-family: 'Dubai Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Regular'), url('../fonts/Dubai-Regular.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Dubai Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Light'), url('../fonts/Dubai-Light.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Dubai Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Medium'), url('../fonts/Dubai-Medium.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Dubai Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Bold'), url('../fonts/Dubai-Bold.woff') format('woff');
+    }
+/****/
+
+body{
+    background-color: #ffffff;
+}
+
+/***  top bar style ***/
+nav.navbar {
+    text-align: center;
+    display: block;
+    height: 50px;
+    cursor: default;
+    
+}
+div#brand {
+    display: inline-block;
+    top: 2px;
+    position: relative;
+    font-family: 'Dubai Bold'
+}
+ul.menu-items li {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 6px;
+
+}
+ul.menu-items {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+ul.social-items {
+    display: inline-block;
+    list-style: none;
+}
+.lang {
+    display: inline-flex;
+    padding: 0px 15px;
+    list-style: none;
+    position: relative;
+    top: 1;
+}
+i {
+    vertical-align: middle;
+    
+}
+ul.social-items li {
+    display: inline-block;
+}
+nav.navbar {
+    padding: 12px;
+    background: #ffffff;
+    box-shadow: 0px 0px 9px #0000002b;
+}
+span.dash {
+    padding: 0px 20px;
+    color: black;
+    opacity: 0.1;
+    font-size: 15px;
+}
+nav.navbar a {
+    color: black;
+    font-size: 16px;
+    position: relative;
+    top: 1px;
+}
+span.dash.left {
+    padding-right: 4;
+    position: relative;
+    top: 1;
+}
+span.dash.right {
+    padding-left: 4;
+    position: relative;
+    top: 1;
+}
+i.fab.fa-instagram {
+    font-size: 19px;
+}
+ul.social-items li {
+    padding-right: 4px;
+}
+i.fab.fa-facebook-f {
+    font-size: 16px;
+    position: relative;
+}
+i.fas.fa-angle-right {
+    transform: rotate(90deg);
+    padding: 0 5px;
+    color: black;
+}
+.lang a {
+    position: relative;
+    top: 2px !important;
+}
+/* click events sub menu */
+.lang li ul {
+   /* display: none;*/
+    
+}
+.lang li ul {
+    display: block;
+    list-style: none;
+    background: #ffffff;
+    box-shadow: 0px 0px 9px #0000002e;
+    height: 55px;
+    border-radius: 4px;
+    margin-top: 10px;
+
+}
+
