@@ -130,18 +130,22 @@ i.fas.fa-angle-right {
     transform: rotate(90deg);
     padding: 0 5px;
     color: black;
+    left: 3px;
+    position: relative;
 }
 .lang a {
     position: relative;
     top: 2px !important;
 }
 /* click events sub menu */
-.lang li ul {
-   /* display: none;*/
+
+
+.lang .lang-items {
+    
+display: none;
     
 }
 .lang li ul {
-    display: block;
     list-style: none;
     background: #ffffff;
     box-shadow: 0px 0px 9px #0000002e;
@@ -150,4 +154,21 @@ i.fas.fa-angle-right {
     margin-top: 10px;
 
 }
+.lang:hover .lang-items {
+    display: block;
 
+}
+.lang:hover i.fas.fa-angle-right {
+    transform: rotate(270deg) !important;
+    -webkit-transform:  rotate(270deg) !important;
+}
+.sub:hover .fa-angle-right {
+    transform: rotate(270deg) !important;
+}
+ul.social-items i:hover {
+    transform: translateY(-2px);
+}
+div#brand a {
+    font-family: 'Dubai Bold';
+    text-decoration: none;
+}
