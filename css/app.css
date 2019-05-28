@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     clear: both;
-    transition: all ease-out .4s !important;
+    transition: all ease-out .3s !important;
     font-family:  'Dubai Light';
 }
 
@@ -61,7 +61,7 @@ div#brand {
 ul.menu-items li {
     display: inline-block;
     text-align: center;
-    padding: 0px 6px;
+    padding: 11px 6px;
 
 }
 ul.menu-items {
@@ -90,7 +90,7 @@ ul.social-items li {
     display: inline-block;
 }
 nav.navbar {
-    padding: 12px;
+    padding: 0px;
     background: #ffffff;
     -webkit-box-shadow: 0px 0px 9px #0000002b;
 }
@@ -105,6 +105,10 @@ nav.navbar a {
     font-size: 17px;
     position: relative;
     top: 1px;
+ 
+}
+.menu-items a{
+    padding: 10px 0;
 }
 span.dash.left {
     padding-right: 4;
@@ -136,6 +140,18 @@ i.fas.fa-angle-right {
 .lang a {
     position: relative;
     top: 2px !important;
+}
+ul.sub-menu1 li {
+    padding: 4px 0;
+}
+a:hover {
+    text-decoration: none !important;
+}
+lang a{
+    text-decoration: line-through !important;
+}
+ul.lang-items a:hover {
+    text-decoration: underline !important;
 }
 /* click events sub menu */
 
@@ -177,8 +193,8 @@ div#brand a {
 ul.sub-menu1 {
     display: none;
     position: absolute;
-    width: 250px;
-    top: 35px;
+    width: 210px;
+    top: 46px;
     background: white;
     -webkit-box-shadow: 0px 0px 9px #0000002e;
     border-radius: 4px;
