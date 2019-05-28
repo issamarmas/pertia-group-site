@@ -142,7 +142,7 @@ i.fas.fa-angle-right {
     top: 2px !important;
 }
 ul.sub-menu1 li {
-    padding: 4px 0;
+    padding: 0px 0 !important;
 }
 a:hover {
     text-decoration: none !important;
