@@ -38,4 +38,33 @@ $(".mov4").hover(function () {
 function () {
     $('.ic4').css("-webkit-transform", "rotate(90deg)")
 });
-/////////////////
+
+
+
+
+
+/////////////////  after scroll and scroll smooth ///////////////////////////////
+
+
+
+
+
+
+$(function(){
+    $("body a").click(function(b){
+    b.preventDefault();
+    var a=$($(this).attr("href")).offset().top;
+    $("html,body").stop().animate({scrollTop:a-30},750)})});
+  
+        // Scrolling Effect
+        $(window).on("scroll", function() {
+              if($(window).scrollTop()) {
+                    $('nav').removeClass('before-scroll');
+                    $('.navbar').addClass('animated slideInDown')
+              }
+              else {
+                    $('nav').addClass('before-scroll');
+                    $('.navbar').addClass('animated fadeInDown');
+                    $('.navbar').removeClass(' slideInDown')
+              }
+        });
