@@ -163,8 +163,6 @@ ul.lang-items a:hover {
  opacity: 0;
  -webkit-transition: opacity 400ms, visibility 400ms;
  transition: opacity 400ms, visibility 400ms;
- transform: translateY(8px) !important;
- -webkit-transform: translateY(8px) !important;
     
 }
 .lang li ul {
@@ -182,8 +180,8 @@ ul.lang-items a:hover {
     visibility: visible;
     opacity: 1;
 
-    transform: translateY(0px) !important;
-    -webkit-transform: translateY(0px) !important;
+    animation: jello .8s;
+    -webkit-animation: animation: jello .8s;
 
 
 }
@@ -216,8 +214,8 @@ ul.sub-menu1 {
     -webkit-transition: opacity 400ms, visibility 400ms;
     transition: opacity 400ms, visibility 400ms;
     border-radius: 4px;
-    transform: translateY(8px) !important;
-    -webkit-transform: translateY(8px) !important;
+
+    
 }
 ul.sub-menu1 li {
     display: block;
@@ -230,11 +228,13 @@ ul.sub-menu1 a {
     width: 100%;
     display: block;
     text-align: left;
+    color: #4a4a4a;
 }
 .show-menu:hover .sub-menu1 {
     display: block;
     visibility: visible !important;
     opacity: 1 !important;
-    transform: translateY(0px) !important;
-    -webkit-transform: translateY(0px) !important;
+
+    animation: jello .8s;
+    -webkit-animation: animation: jello .8s;
 }
