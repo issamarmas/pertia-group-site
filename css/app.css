@@ -158,20 +158,32 @@ ul.lang-items a:hover {
 
 .lang .lang-items {
     
-display: none;
+ visibility: hidden;
+ opacity: 0;
+ -webkit-transition: opacity 400ms, visibility 400ms;
+ transition: opacity 400ms, visibility 400ms;
+ transform: translateY(8px) !important;
+ -webkit-transform: translateY(8px) !important;
     
 }
 .lang li ul {
     list-style: none;
     background: #ffffff;
     box-shadow: 0px 0px 9px #0000002e;
+    position: absolute;
     height: 55px;
+    width: 40px;
     border-radius: 4px;
     margin-top: 10px;
 
 }
 .lang:hover .lang-items {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+
+    transform: translateY(0px) !important;
+    -webkit-transform: translateY(0px) !important;
+
 
 }
 .lang:hover i.fas.fa-angle-right {
@@ -191,13 +203,19 @@ div#brand a {
 /******** sub menu *******/
 
 ul.sub-menu1 {
-    display: none;
-    position: absolute;
     width: 200px;
     top: 46px;
-    background: white;
-    -webkit-box-shadow: 0px 0px 9px #0000002e;
+    position: absolute;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    background-color:#ffffff;
+    -webkit-box-shadow: 0px 0px 9px #0000002b;
+    -webkit-transition: opacity 400ms, visibility 400ms;
+    transition: opacity 400ms, visibility 400ms;
     border-radius: 4px;
+    transform: translateY(8px) !important;
+    -webkit-transform: translateY(8px) !important;
 }
 ul.sub-menu1 li {
     display: block;
@@ -212,5 +230,9 @@ ul.sub-menu1 a {
     text-align: left;
 }
 .show-menu:hover .sub-menu1 {
-    display: block; 
+    display: block;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translateY(0px !important);
+    -webkit-transform: translateY(0px) !important;
 }
