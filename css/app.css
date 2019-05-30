@@ -460,3 +460,10 @@ span.bord {
         padding: 0 20px !important;
     }
 }
+
+ul > :first-child {
+    border-radius: 4px 4px 0px 0px;
+}
+ul > :last-child {
+    border-radius: 0px 0px 4px 4px;
+}
