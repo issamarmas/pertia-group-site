@@ -308,8 +308,12 @@ ul.sub-menu1 a {
 
 /***** header ******/
 header{
-    height: 100vh; 
+    height: 100vh;
+    background-image: url(../images/left.svg);
     min-height: 625px;
+    background-position: -128px -170px;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 .header-contant {
     position: absolute;
@@ -381,7 +385,7 @@ header{
     
 }
 
-    
+/**** media svg background ***/
 @media(max-width:491px){
     header p {
         font-size: 17px !important;
@@ -390,4 +394,20 @@ header{
         font-size: 2.5em !important;
     }
     
+}
+
+@media(max-width:1207px){
+    header{
+        background-position: -200px -170px;
+    }
+}
+@media(max-width:1102px){
+    header{
+        background-position: -250px -170px;
+    }
+}
+@media(max-width:992px){
+    header{
+        background-image: none !important;
+    }
 }
