@@ -355,6 +355,9 @@ header{
     animation: jello 1s;
     -webkit-animation: jello 1s;
     -moz-animation: jello 1s;
+    box-shadow: 0px 0px 12px #00000030;
+    -webkit-box-shadow: 0px 0px 12px #00000030;
+    -moz-box-shadow: 0px 0px 12px #00000030;
 }
 
 .col-12.down-btn {
