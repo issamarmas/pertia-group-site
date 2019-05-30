@@ -464,7 +464,23 @@ span.bord {
         padding: 0 20px !important;
     }
 }
+@media(max-width:665px){
 
+    header h1, header span {
+        font-size: 40px !important;
+    }
+}
+@media(max-width:405px){
+
+    header h1, header span {
+        font-size: 30px !important;
+    }
+    header p{
+        font-size: 14px!important;
+    }
+}
+
+/**** */
 ul > :first-child {
     border-radius: 4px 4px 0px 0px;
 }
