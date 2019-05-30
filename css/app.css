@@ -322,15 +322,16 @@ header{
     width: 100%;
     padding: 0px 40px;
 }
-.header-contant h1 {
+.header-contant h1, span {
     text-align: center;
     font-family: dubai bold !important;
     line-height: 1;
-    font-size: 3.5em;
+    font-size: 50px;
 }
 .header-contant p {
     font-size: 20px;
     padding-top: 10px;
+    font-style: italic;
     line-height: 1.3;
 }
 .col-md-6.align-self-start {
@@ -441,6 +442,9 @@ section{
 }
 #about p {
     padding-right: 55px;
+    padding-right: 55px;
+    line-height: 1.4;
+    font-size: 1.1em;
 }
 .center-img img {
     padding-bottom: 20px;
@@ -466,4 +470,8 @@ ul > :first-child {
 }
 ul > :last-child {
     border-radius: 0px 0px 4px 4px;
+}
+
+section span {
+    font-size: 16px !important;
 }
