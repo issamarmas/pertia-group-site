@@ -504,6 +504,59 @@ ul > :last-child {
     border-radius: 0px 0px 4px 4px;
 }
 
+#about span.bord {
+    display: table-cell;
+}
 section span {
     font-size: 16px !important;
+}
+
+
+section h1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: dubai bold;
+}
+span.bord {
+    display: block;
+    border-bottom: 3px solid;
+    width: 50px;
+    padding-top: 8px;
+    margin: 0 auto;
+}
+/***     adventages section  ***/
+#advantages{
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+}
+.contant {
+    text-align: center;
+    max-width: 305px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.contant .fas, .far {
+    font-size: 5em !important;
+}
+.contant h3 {
+    font-family: dubai bold;
+    font-size: 23px;
+    line-height: 1;
+    padding: 20px 0;
+}
+.contant p {
+    line-height: 1.4;
+    font-size: 16px;
+    text-align: center;
+}
+.contant:hover > i {
+    color: #7E131B;
+    animation: bounceIn .9s;
+    -webkit-animation: bounceIn .9s;
+    -moz-animation:  bounceIn .9s;
+    -o-animation:  bounceIn .9s;
 }
