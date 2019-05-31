@@ -272,6 +272,9 @@ ul.social-items i:hover {
 div#brand a {
     font-family: 'Dubai Bold';
     text-decoration: none;
+    position: relative;
+    font-size: 1.3em;
+    top: 2px;
 }
 /******** sub menu *******/
 
