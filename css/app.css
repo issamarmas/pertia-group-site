@@ -434,6 +434,8 @@ header{
 /************* main ******/
 main {
     box-shadow: 0px -6px 6px #efefef;
+    max-width: 1615px;
+    margin: 0 auto;
 }
 #about h1 {
     text-align: left;
@@ -534,13 +536,21 @@ span.bord {
 .contant {
     text-align: center;
     max-width: 305px;
+    background: white;
     margin: 0 auto;
-    padding: 0px 0px;
+    padding: 30px;
     margin-top: 5rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 61px 0px #d6d6d691;
+    -webkit-box-shadow: 0px 0px 61px 0px #d6d6d691;
+    -moz-box-shadow: 0px 0px 61px 0px #d6d6d691;
+    -o-box-shadow: 0px 0px 61px 0px #d6d6d691;
     cursor: pointer;
 }
 .contant .fas, .far {
-    font-size: 5em !important;
+    font-size: 4em !important;
+    padding: 1rem 0;
+    padding-bottom: 0;
 }
 .contant h3 {
     font-family: dubai bold;
@@ -550,8 +560,12 @@ span.bord {
 }
 .contant p {
     line-height: 1.4;
-    font-size: 16px;
-    text-align: center;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.contant:hover {
+    transform: translateY(-15px);
 }
 .contant:hover > i {
     color: #7E131B;
@@ -559,4 +573,8 @@ span.bord {
     -webkit-animation: bounceIn .9s;
     -moz-animation:  bounceIn .9s;
     -o-animation:  bounceIn .9s;
+}
+#advantages .down-btn {
+    top: 16px;
+    padding-top: 10px;
 }
