@@ -1,5 +1,9 @@
 
-
+////// loader function
+$(window).on('load',function(){
+    $('.loader-wrapper').fadeOut("slow");
+});
+////////// 
 $(".mov1").hover(function () {
     //stuff to do on mouse enter
 
