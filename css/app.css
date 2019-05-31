@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     clear: both;
-    transition: all ease-out .3s !important;
+    transition: none;
     font-family:  'Dubai Light';
 }
 

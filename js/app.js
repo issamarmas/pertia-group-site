@@ -1,7 +1,7 @@
 
 ////// loader function
 $(window).on('load',function(){
-    $('*').css("transition", "none")
+    $('*').css("transition", "all ease-out .3s");
     $('.loader-wrapper').fadeOut("slow");
 });
 ////////// 
