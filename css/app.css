@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     clear: both;
-    transition: none;
     font-family:  'Dubai Light';
 }
-
+body{
+    transition: none;
+}
 /** install font-family **/
 @font-face {
     font-family: 'Dubai Regular';
