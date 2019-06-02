@@ -327,6 +327,7 @@ ul.sub-menu1 a {
 header{
     height: 100vh;
     min-height: 625px;
+    overflow: hidden;
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23ffffff' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23fbfbfb' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23f8f8f8' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23f4f4f4' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23f1f1f1' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23ededed' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
@@ -342,6 +343,8 @@ header{
     text-align: center;
     width: 100%;
     padding: 0px 40px;
+    z-index: 999;
+    color: black !important;
 }
 .header-contant h1, span {
     text-align: center;
@@ -374,10 +377,13 @@ header{
 .btn a:hover {
     animation: jello 1s;
     -webkit-animation: jello 1s;
+    background: #000000;
     -moz-animation: jello 1s;
-    box-shadow: 0px 0px 12px #00000030;
-    -webkit-box-shadow: 0px 0px 12px #00000030;
-    -moz-box-shadow: 0px 0px 12px #00000030;
+    color: #fff;
+    border-color: black;
+    box-shadow: 0px 0px 20px #000000;
+    -webkit-box-shadow: 0px 0px 20px 0px #000000;
+    -moz-box-shadow: 0px 0px 20px #000000
 }
 
 .col-12.down-btn {
@@ -580,4 +586,46 @@ span.bord {
 #advantages .down-btn {
     top: 16px;
     padding-top: 10px;
+}
+/***** vedio media header *****/
+
+video {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    top: -15rem;
+    left: 0;
+}
+.video-wrap{
+
+     height: 100vh;
+     background: #ffffff;
+     opacity: 0.85;
+     width: 100%;
+     display: block;
+     position: absolute;
+     z-index: 99;
+     min-height: 625px;
+}
+
+/** vedio media position **/
+@media(max-width:956px){
+    video {
+        left: -25rem;
+        top: -15rem;
+    }
+}
+@media(max-width:629px){
+    video {
+        left: -40rem;
+        top: -15rem;
+    }
+}
+
+@media(min-width:1840px){
+    video {
+        width: 100%;
+
+    }
 }
