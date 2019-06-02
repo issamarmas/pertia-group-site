@@ -285,6 +285,7 @@ ul.sub-menu1 {
     list-style: none;
     opacity: 0;
     visibility: hidden;
+    border-top: solid 4px #2196F3;
     background-color:#ffffff;
     -webkit-box-shadow: 0px 0px 9px #0000002b;
     box-shadow: 0px 0px 9px #0000002b;
@@ -509,7 +510,7 @@ span.bord {
 
 /**** */
 ul > :first-child {
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
 }
 ul > :last-child {
     border-radius: 0px 0px 4px 4px;
@@ -550,6 +551,7 @@ span.bord {
     padding: 30px;
     margin-top: 5rem;
     border-radius: 5px;
+    border-top: solid 5px #2196F3;
     box-shadow: 0px 0px 61px 0px #d6d6d691;
     -webkit-box-shadow: 0px 0px 61px 0px #d6d6d691;
     -moz-box-shadow: 0px 0px 61px 0px #d6d6d691;
@@ -577,7 +579,7 @@ span.bord {
     transform: translateY(-15px);
 }
 .contant:hover > i {
-    color: #7E131B;
+    color: #2196F3;
     animation: bounceIn .9s;
     -webkit-animation: bounceIn .9s;
     -moz-animation:  bounceIn .9s;
