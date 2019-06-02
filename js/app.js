@@ -103,7 +103,7 @@ $(function(){
               this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
           
               // Initial Type Speed
-              let typeSpeed = 100;
+              let typeSpeed = 170;
           
               if(this.isDeleting) {
                 typeSpeed /= 2;
