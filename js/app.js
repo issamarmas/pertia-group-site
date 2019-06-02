@@ -141,3 +141,5 @@ $(function(){
           }
 
 //////// writer function //////////////
+
+////// swiper //////////
