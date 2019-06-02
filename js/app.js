@@ -2,7 +2,8 @@
 ////// loader function
 $(window).on('load',function(){
     $('*').css("transition", "all 0.3s ease-out 0s");
-    $('.loader-wrapper').fadeOut("slow");
+    $('.lds-roller').fadeOut("slow");
+    $('body').css("overflow-y", "scroll")
 });
 ////////// 
 $(".mov1").hover(function () {
