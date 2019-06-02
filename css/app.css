@@ -367,8 +367,9 @@ header{
 
 .btn a {
     display: inline-block;
-    border: 2px solid #000000;
+    border: 2px solid #2196F3;
     padding: 9px 27px;
+    color: #2196F3 !important;
     margin: 0px 4px;
     border-radius: 34px;
     padding-top: 13px;
@@ -378,13 +379,13 @@ header{
 .btn a:hover {
     animation: jello 1s;
     -webkit-animation: jello 1s;
-    background: #000000;
+    background: #2196F3;
     -moz-animation: jello 1s;
-    color: #fff;
-    border-color: black;
-    box-shadow: 0px 0px 20px #000000;
-    -webkit-box-shadow: 0px 0px 20px 0px #000000;
-    -moz-box-shadow: 0px 0px 20px #000000
+    color: #fff !important;
+    border-color: #2196F3;
+    box-shadow: 0px 0px 20px #2196F3;
+    -webkit-box-shadow: 0px 0px 20px 0px #2196F3;
+    -moz-box-shadow: 0px 0px 20px #2196F3;
 }
 
 .col-12.down-btn {
@@ -392,6 +393,9 @@ header{
     font-size: 2em;
     text-align: center;
     margin-bottom: 5px
+}
+header i.fas.fa-chevron-down {
+    color: #2196F3;
 }
 
 
