@@ -232,11 +232,11 @@ ul.lang-items a:hover {
 
 
 .lang .lang-items {
-    
- visibility: hidden;
- opacity: 0;
- -webkit-transition: opacity 400ms, visibility 400ms;
- transition: opacity 400ms, visibility 400ms;
+    border-top: solid 4px #2196F3;   
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 400ms, visibility 400ms;
+    transition: opacity 400ms, visibility 400ms;
     
 }
 .lang li ul {
