@@ -54,7 +54,8 @@ body{
         position: fixed;
         display: flex;
         overflow: hidden !important;
-        background: #191919;
+        background: rgb(191,58,71);
+        background: linear-gradient(56deg, rgba(191,58,71,1) 0%, rgba(63,81,181,1) 100%);
         align-items: center;
         justify-content: center;
       }
@@ -644,8 +645,9 @@ video {
 .video-wrap{
 
      height: 100vh;
-     background: #3F51B5;
-     opacity: 0.85;
+     background: rgb(191,58,71);
+     background: linear-gradient(56deg, rgba(191,58,71,1) 0%, rgba(63,81,181,1) 100%);
+     opacity: 0.89;
      width: 100%;
      display: block;
      position: absolute;
@@ -721,4 +723,36 @@ video {
 
 ul.lang-items li a {
     color: #343434 !important;
+}
+
+/*** btn top **/
+.top-btn a{
+    color: #fff;
+    width: 100%;
+    height: 60%;
+}
+.top-btn {
+    position: fixed;
+    float: right;
+    display: flex;
+    transform: rotate(180deg);
+    top: 80vh;
+    left: 94%;
+    z-index: 9999;
+    margin: 0 auto;
+    color: white !important;
+    align-items: center;
+    cursor: pointer;
+    background: #98a7ff;
+    width: 40px;
+    text-align: center;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 1.5em;
+    justify-content: center;
+}
+@media(max-width:900px){
+    .top-btn{
+        display: none;
+    }
 }
