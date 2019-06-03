@@ -504,7 +504,7 @@ section{
     max-height: 27rem;
     padding-top: 1rem;
     overflow-y: scroll !important;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 .center-img img {
     padding-bottom: 20px;
