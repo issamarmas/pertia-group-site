@@ -587,7 +587,7 @@ section#group {
     padding: 30px;
     margin-top: 5rem;
     border-radius: 5px;
-    border-top: solid 5px #f7f7f7;
+    border-top: solid 5px #000;
     border-bottom: solid 5px #f7f7f7;
     box-shadow: 0px 0px 61px 0px #d6d6d691;
     -webkit-box-shadow: 0px 0px 61px 0px #d6d6d691;
@@ -812,4 +812,16 @@ ul.lang-items li a {
   div#about-link {
     position: relative;
     top: -99px;
+}
+
+/**** MENU MOBILE ****
+**********************/
+
+@media(max-width:700px){
+    .menu-items,
+    .dash,
+    .social-items,
+    .lang{
+        display: none !important;
+    }
 }
