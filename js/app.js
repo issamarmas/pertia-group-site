@@ -63,15 +63,22 @@ $(function(){
         $(window).on("scroll", function() {
               if($(window).scrollTop()) {
                     $('nav').removeClass('before-scroll');
-                    $('.navbar').addClass('animated slideInDown')
+                    $('.navbar').addClass('animated slideInDown');
+                    $('nav.navbar a').css('color', 'black');
+                    $('i.fas.fa-angle-right').css('color', '#000');
+                    $('.social-items .fab').css('color', '#000');
               }
               else {
                     $('nav').addClass('before-scroll');
                     $('.navbar').addClass('animated fadeInDown');
                     $('.navbar').removeClass(' slideInDown')
+                    $('nav.navbar a').css('color', 'white');
+                    $('nav.navbar ul li ul a').css('color', 'black');
+                    $('i.fas.fa-angle-right').css('color', '#fff');
+                    $('.social-items .fab').css('color', '#fff');
+                    
               }
         });
-
         ///////////////////// !::::::::: writer function :::::::::///////////////////
 
         class TypeWriter {
