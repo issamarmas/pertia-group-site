@@ -774,7 +774,7 @@ ul.lang-items li a {
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-
+    transition: all 0.3s ease-out !important;
   }
   
   /* Track */
@@ -796,11 +796,12 @@ ul.lang-items li a {
     border-radius: 20px
   }
   #about ::-webkit-scrollbar-thumb{
-    background: rgb(206, 206, 206); 
+    background: rgb(0, 0, 0); 
     border-radius: 20px;
   }
   #about ::-webkit-scrollbar-thumb:hover{
-    background: rgb(194, 194, 194); 
+    background: rgb(59, 59, 59); 
+
   }
   @media(max-width:1199px){
     .center-img {
