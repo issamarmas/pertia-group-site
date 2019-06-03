@@ -54,8 +54,7 @@ body{
         position: fixed;
         display: flex;
         overflow: hidden !important;
-        background: rgb(191,58,71);
-        background: linear-gradient(56deg, rgba(191,58,71,1) 0%, rgba(63,81,181,1) 100%);
+        background: rgb(255, 255, 255);
         align-items: center;
         justify-content: center;
       }
@@ -70,7 +69,7 @@ body{
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: #fff;
+        background: #000;
         margin: -3px 0 0 -3px;
       }
       .lds-roller div:nth-child(1) {
