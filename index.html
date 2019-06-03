@@ -89,10 +89,10 @@
                         <h1 class="wow fadeInDown" data-wow-delay=".2s">PERTIA INTERNATIONAL<br>& <span class="txt-type" data-wait="3000" data-words='["SOME WORDS TO SAY", "OTHER WORDS TO SAY", "AGAIN OTHER WORDS"]'></span></h1>
                         <p class="wow fadeInDown" data-wow-delay=".5s">INTRO PARAGRAPH  TALKING ABOUT THE COMPANY <br>AND SAYING HI TO THE USERS</p>
                         <div class="row">
-                            <div class="col-md-6 align-self-end btn wow fadeInDown" data-wow-delay="0.7s"><a class="smooth" href="#about">ABOUT US</a></div>
+                            <div class="col-md-6 align-self-end btn wow fadeInDown" data-wow-delay="0.7s"><a class="smooth" href="#about-link">ABOUT US</a></div>
                             <div class="col-md-6 align-self-start btn wow fadeInDown" data-wow-delay="0.7s"><a class="smooth" href="#">CONTACT US</a></div>
                             <div class="w-100"></div>
-                            <div class="col-12 down-btn wow fadeInUp" data-wow-delay="1s"><a class="smooth" href="#about"><i class="fas fa-chevron-down"></i></a></div>
+                            <div class="col-12 down-btn wow fadeInUp" data-wow-delay="1s"><a class="smooth" href="#about-link"><i class="fas fa-chevron-down"></i></a></div>
                         </div>
                     </div>
             </header>
@@ -103,11 +103,28 @@
                 --->
                 <!-- About section -->
                 <section id="about">
+                    <!-- right link about position -->
+                    <div id="about-link"></div>
+                    <!---->
                     <h1 style="opacity: 0;">ABOUT US<span class="bord"></span></h1>
                     <div class="row max-width wow fadeInUp" data-wow-delay="0.7s" data-wow-offset="0">
                         <div class="col-xl-4 align-self-center center-img wow fadeInUp">
-                            <img src="images/Asset1.svg" width="275px" height="auto" alt="pertia international">
-                            <img src="images/Asset3.svg" width="237px" height="auto" alt="pertia sub companys">
+                                <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                          <div class="swiper-slide" style="background-image:url(http://oregonenduro.com/wp-content/uploads/2018/12/photographer-698908_1280.jpg)"></div>
+                                        </div>
+                                        <!-- Add Pagination -->
+                                        <div class="swiper-pagination"></div>
+                                      </div>
                         </div>
                         <div class="col-xl-8  wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
                             <p class="wow fadeInUp" data-wow-delay="0.3s"><span><b>PERTIA INTERNATIONAL</b><br></span><br>
@@ -200,9 +217,28 @@
         </div>
         <!--javascript links-->
         <script src="js/wow.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
         <script>
-			new WOW().init();
-		</script>
+                new WOW().init();
+    
+                var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+            </script>
         <script src="js/jQuery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/app.js"></script>
