@@ -643,7 +643,7 @@ video {
 .video-wrap{
 
      height: 100vh;
-     background: #3F51B5;
+     background: #000000 !important;
      opacity: 0.89;
      width: 100%;
      display: block;
