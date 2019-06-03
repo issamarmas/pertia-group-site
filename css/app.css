@@ -257,7 +257,7 @@ ul.lang-items a:hover {
 
 
 .lang .lang-items {
-    border-top: solid 4px #98a7ff;   
+    border-top: solid 4px #000;   
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity 400ms, visibility 400ms;
@@ -310,7 +310,7 @@ ul.sub-menu1 {
     list-style: none;
     opacity: 0;
     visibility: hidden;
-    border-top: solid 4px #98a7ff;
+    border-top: solid 4px #000;
     background-color:#ffffff;
     -webkit-box-shadow: 0px 0px 9px #0000002b;
     box-shadow: 0px 0px 9px #0000002b;
@@ -614,17 +614,17 @@ section#group {
 }
 .contant:hover {
     transform: translateY(-15px);
-    border-bottom: solid 5px #98a7ff;
+    border-bottom: solid 5px #000;
 }
 .contant:hover > i {
-    color: #98a7ff;
+    color: #000;
     animation: bounceIn .9s;
     -webkit-animation: bounceIn .9s;
     -moz-animation:  bounceIn .9s;
     -o-animation:  bounceIn .9s;
 }
 .contant:hover > h3 {
-    color: #98a7ff;
+    color: #000;
 }
 #advantages .down-btn {
     top: 16px;
@@ -696,8 +696,11 @@ video {
     border-radius: 25px;
     padding: 0 15;
     position: relative;
+    font-family: dubai bold;
+    font-weight: 100;
     color: #000;
     padding-top: 3px;
+    border-left: solid 10px #000000;
 }
 @media(max-width:785px){
     .row.max-width {
@@ -736,7 +739,7 @@ ul.lang-items li a {
     color: white !important;
     align-items: center;
     cursor: pointer;
-    background: #98a7ff;
+    background: #000;
     width: 40px;
     text-align: center;
     border-radius: 25px;
