@@ -518,12 +518,7 @@ span.bord {
     width: 50px;
     padding-top: 8px;
 }
-@media(max-width:991px){
 
-    #about p, h1 {
-        padding: 0 20px !important;
-    }
-}
 @media(max-width:665px){
 
     header h1, header span {
@@ -710,11 +705,7 @@ video {
 
     }
 }
-@media(max-width:407px){
-    #about p, h1 {
-        padding: 0 3px !important;
-    }
-}
+
 .full {
     position: relative;
     top: -14px;
