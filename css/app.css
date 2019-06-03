@@ -614,7 +614,7 @@ section#group {
 }
 .contant:hover {
     transform: translateY(-15px);
-    border-bottom: solid 5px #000;
+    border-top: solid 5px #000;
 }
 .contant:hover > i {
     color: #000;
