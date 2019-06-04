@@ -63,19 +63,19 @@ $(function(){
         $(window).on("scroll", function() {
               if($(window).scrollTop()) {
                     $('nav').removeClass('before-scroll');
-                    $('.navbar').addClass('animated slideInDown');
-                    $('nav.navbar a').css('color', 'black');
-                    $('i.fas.fa-angle-right').css('color', '#000');
-                    $('.social-items .fab').css('color', '#000');
+                    $('.navbar , .mobile-navbar').addClass('animated slideInDown');
+                    $('nav.navbar a, .mobile-navbar a').css('color', 'black');
+                    $('i.fas.fa-angle-right , .mobile-navbar .menu-icon').css('color', '#000');
+                    $('.social-items .fab , .mobile-navbar').css('color', '#000');
               }
               else {
                     $('nav').addClass('before-scroll');
-                    $('.navbar').addClass('animated fadeInDown');
-                    $('.navbar').removeClass(' slideInDown')
-                    $('nav.navbar a').css('color', 'white');
-                    $('nav.navbar ul li ul a').css('color', 'black');
+                    $('.navbar , .mobile-navbar').addClass('animated fadeInDown');
+                    $('.navbar , .mobile-navbar').removeClass(' slideInDown')
+                    $('nav.navbar a , .mobile-navbar a').css('color', 'white');
+                    $('nav.navbar ul li ul a , .mobile-navbar ul li').css('color', 'black');
                     $('i.fas.fa-angle-right').css('color', '#fff');
-                    $('.social-items .fab').css('color', '#fff');
+                    $('.social-items .fab , .mobile-navbar .menu-icon').css('color', '#fff');
                     
               }
         });

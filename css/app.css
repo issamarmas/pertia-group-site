@@ -835,4 +835,30 @@ ul.lang-items li a {
         -webkit-box-shadow: 0px 0px 25px #0000001a;
         position: fixed;
     }
+    .mobile-navbar ul{
+        
+        display: block;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto !important;
+    }
+    .mobile-navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .mobile-navbar div#brand a{
+        color: #000;
+    }
+    .mobile-navbar .brand{
+       
+    }
+    .mobile-navbar .menu-icon{
+        float: right;
+        font-size: 25px;
+        padding: 10px;
+        
+    }
+
 }
