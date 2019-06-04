@@ -447,7 +447,7 @@ header i.fas.fa-chevron-down {
 /**** media svg background ***/
 @media(max-width:491px){
     header p {
-        font-size: 17px !important;
+        font-size: 15px !important;
     }
     header h1{
         font-size: 2.5em !important;
@@ -531,7 +531,7 @@ span.bord {
         font-size: 30px !important;
     }
     header p{
-        font-size: 14px!important;
+        font-size: 13px!important;
     }
 }
 
@@ -816,12 +816,23 @@ ul.lang-items li a {
 
 /**** MENU MOBILE ****
 **********************/
-
+.mobile-navbar{
+    display: none;
+}
 @media(max-width:700px){
-    .menu-items,
-    .dash,
-    .social-items,
-    .lang{
+    .navbar{
         display: none !important;
+    }
+    .mobile-navbar{
+        display: block;
+        display: block;
+        width: 100%;
+        height: auto;
+        right: 0;
+        z-index: 99999;
+        background: #ffffff;
+        box-shadow: 0px 0px 25px #0000001a;
+        -webkit-box-shadow: 0px 0px 25px #0000001a;
+        position: fixed;
     }
 }
