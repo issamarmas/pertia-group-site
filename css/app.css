@@ -402,10 +402,10 @@ header{
     font-family: dubai bold;
 }
 .btn a:hover {
-    animation: jello 1s;
-    -webkit-animation: jello 1s;
+    animation: pulse .8s;
+    -webkit-animation: pulse .8s;
     background: #ffffff;
-    -moz-animation: jello 1s;
+    -moz-animation: pulse 1s;
     color: #000 !important;
     border-color: #ffffff;
     box-shadow: 0px 0px 20px #ffffff;
