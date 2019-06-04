@@ -394,11 +394,11 @@ header{
 .btn a {
     display: inline-block;
     border: 2px solid #fff;
-    padding: 9px 27px;
+    padding: 8px 23px;
     color: #fff !important;
     margin: 0px 4px;
     border-radius: 34px;
-    padding-top: 13px;
+    padding-top: 12px;
     font-family: dubai bold;
 }
 .btn a:hover {
