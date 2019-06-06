@@ -345,7 +345,7 @@ header{
     padding: 8px 23px;
     color: #fff !important;
     margin: 0px 4px;
-    border-radius: 34px;
+    border-radius: 4px;
     padding-top: 12px;
     font-family: dubai bold;
 }
@@ -534,7 +534,7 @@ section#group {
     margin: 0 auto;
     padding: 30px;
     margin-top: 5rem;
-    border-radius: 5px;
+    border-radius: 4px;
     border-top: solid 5px #000;
     border-bottom: solid 5px #f7f7f7;
     box-shadow: 0px 0px 40px 0px #d6d6d691;
@@ -642,7 +642,7 @@ video {
 
 #about b {
     background: #f5f5f5;
-    border-radius: 25px;
+    border-radius: 3px;
     padding: 0 15;
     position: relative;
     font-family: dubai bold;
@@ -742,11 +742,11 @@ ul.lang-items li a {
   }
   #about ::-webkit-scrollbar-track {
     background: #f1f1f1; 
-    border-radius: 20px
+    border-radius:4px;
   }
   #about ::-webkit-scrollbar-thumb{
     background: rgb(0, 0, 0); 
-    border-radius: 20px;
+    border-radius: 2px;
   }
   #about ::-webkit-scrollbar-thumb:hover{
     background: rgb(59, 59, 59); 
