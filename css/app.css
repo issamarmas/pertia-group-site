@@ -849,12 +849,13 @@ ul.lang-items li a {
         font-size: 20px;
     }
     .mobile-navbar div#brand a{
-        color: #000;
+        color: #fff;
     }
     .mobile-navbar .menu-icon{
         float: right;
         font-size: 25px;
         padding: 10px;
+        color: #fff;
         
     }
 
