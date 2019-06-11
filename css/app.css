@@ -325,11 +325,14 @@ header{
     text-align: center;
     font-family: dubai bold !important;
     line-height: 1;
-    font-size: 46px;
+    font-size: 52px;
 }
 .header-contant p {
     font-size: 18px;
+    max-width: 34rem;
     padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1.2;
 }
 .col-md-6.align-self-start {
