@@ -84,7 +84,7 @@ $(function(){
 
 const instance = new TypeIt('#simpleUsage', {
   //-- Other options...
-  strings: ["Welcome to our website.", "Take a look at us."],
+  strings: ["Welcome to our website.", "Take a look at it.","We're excited to know about us"],
   speed: 100,
   breakLines: false,
   waitUntilVisible: true,
