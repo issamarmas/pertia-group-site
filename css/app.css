@@ -205,7 +205,7 @@ ul.lang-items a:hover {
 
 
 .lang .lang-items {
-    border-top: solid 4px #000;   
+    border-top: solid 4px #647fcd;   
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity 400ms, visibility 400ms;
@@ -258,7 +258,7 @@ ul.sub-menu1 {
     list-style: none;
     opacity: 0;
     visibility: hidden;
-    border-top: solid 4px #000;
+    border-top: solid 4px #647fcd;
     background-color:#ffffff;
     -webkit-box-shadow: 0px 0px 9px #0000002b;
     box-shadow: 0px 0px 9px #0000002b;
@@ -357,7 +357,7 @@ header{
     -webkit-animation: pulse .8s;
     background: #ffffff;
     -moz-animation: pulse 1s;
-    color: #000 !important;
+    color:#516caa !important;
     border-color: #ffffff;
     box-shadow: 0px 0px 20px #ffffff;
     -webkit-box-shadow: 0px 0px 20px 0px #ffffff;
@@ -586,6 +586,7 @@ section#group {
 video {
     width: auto;
     height: auto;
+    filter: blur(2px);
     overflow: hidden;
     position: relative;
     top: -15rem;
@@ -594,8 +595,8 @@ video {
 .video-wrap{
 
      height: 100vh;
-     background: #000000 !important;
-     opacity: 0.60;
+     background-image: radial-gradient( circle farthest-corner at -4.7% -4%,  rgba(3,23,157,1) 0%, rgba(97,148,241,1) 90% );
+     opacity: 0.70;
      width: 100%;
      display: block;
      position: absolute;
