@@ -67,6 +67,7 @@ $(function(){
                     $('nav.navbar a, .mobile-navbar a').css('color', 'black');
                     $('i.fas.fa-angle-right , .mobile-navbar .menu-icon').css('color', '#000');
                     $('.social-items .fab , .mobile-navbar').css('color', '#000');
+                    $('.lang .lang-items , ul.sub-menu1').css('border-color', '#000')
               }
               else {
                     $('nav').addClass('before-scroll');
@@ -76,78 +77,20 @@ $(function(){
                     $('nav.navbar ul li ul a , .mobile-navbar ul li').css('color', 'black');
                     $('i.fas.fa-angle-right').css('color', '#fff');
                     $('.social-items .fab , .mobile-navbar .menu-icon').css('color', '#fff');
-                    
+                    $('.lang .lang-items , ul.sub-menu1').css('border-color', '#7e9fff')
               }
         });
-        ///////////////////// !::::::::: writer function :::::::::///////////////////
+///////////////////// !::::::::: writer function :::::::::///////////////////
 
-        class TypeWriter {
-            constructor(txtElement, words, wait = 4000) {
-              this.txtElement = txtElement;
-              this.words = words;
-              this.txt = '';
-              this.wordIndex = 0;
-              this.wait = parseInt(wait, 10);
-              this.type();
-              this.isDeleting = false;
-            }
-          
-            type() {
-              // Current index of word
-              const current = this.wordIndex % this.words.length;
-              // Get full text of current word
-              const fullTxt = this.words[current];
-          
-              // Check if deleting
-              if(this.isDeleting) {
-                // Remove char
-                this.txt = fullTxt.substring(0, this.txt.length - 1);
-              } else {
-                // Add char
-                this.txt = fullTxt.substring(0, this.txt.length + 1);
-              }
-          
-              // Insert txt into element
-              this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
-          
-              // Initial Type Speed
-              let typeSpeed = 170;
-          
-              if(this.isDeleting) {
-                typeSpeed /= 2;
-              }
-          
-              // If word is complete
-              if(!this.isDeleting && this.txt === fullTxt) {
-                // Make pause at end
-                typeSpeed = this.wait;
-                // Set delete to true
-                this.isDeleting = true;
-              } else if(this.isDeleting && this.txt === '') {
-                this.isDeleting = false;
-                // Move to next word
-                this.wordIndex++;
-                // Pause before start typing
-                typeSpeed = 500;
-              }
-          
-              setTimeout(() => this.type(), typeSpeed);
-            }
-          }
-          
-          
-          // Init On DOM Load
-          document.addEventListener('DOMContentLoaded', init);
-          
-          // Init App
-          function init() {
-            const txtElement = document.querySelector('.txt-type');
-            const words = JSON.parse(txtElement.getAttribute('data-words'));
-            const wait = txtElement.getAttribute('data-wait');
-            // Init TypeWriter
-            new TypeWriter(txtElement, words, wait);
-          }
-
-//////// writer function //////////////
+const instance = new TypeIt('#simpleUsage', {
+  //-- Other options...
+  strings: ["Welcome to our website.", "Take a look at us."],
+  speed: 100,
+  breakLines: false,
+  waitUntilVisible: true,
+  loop:true,
+  nextStringDelay:1900,
+    
+}).go();
 
 ////// swiper //////////
