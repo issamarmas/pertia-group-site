@@ -295,6 +295,7 @@ ul.sub-menu1 a {
     background: none !important;
     box-shadow: none !important;
     top: 20px !important;
+    position: absolute !important;
 }
 
 /***** header ******/
@@ -680,23 +681,34 @@ ul.lang-items li a {
     width: 100%;
     height: 60%;
 }
+.top-btn i.fas.fa-angle-down {
+    top: 4px;
+    position: absolute;
+    left: 25%;
+}
+.top-btn:hover i.fas.fa-angle-down {
+    top: 16px;
+}
+.top-btn:hover {
+    background: #000;
+}
 .top-btn {
     position: fixed;
     float: right;
-    display: flex;
+    display: none;
     transform: rotate(180deg);
     top: 80vh;
-    left: 94%;
+    left: 95%;
     z-index: 9999;
     margin: 0 auto;
     color: white !important;
     align-items: center;
     cursor: pointer;
     background: #000;
-    width: 40px;
+    width: 30px;
     text-align: center;
     border-radius: 25px;
-    height: 40px;
+    height: 39px;
     font-size: 1.5em;
     justify-content: center;
 }

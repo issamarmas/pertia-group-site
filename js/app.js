@@ -61,13 +61,14 @@ $(function(){
   
         // Scrolling Effect
         $(window).on("scroll", function() {
-              if($(window).scrollTop()) {
+              if($(window).scrollTop() >= 500 ) {
                     $('nav').removeClass('before-scroll');
                     $('.navbar , .mobile-navbar').addClass('animated slideInDown');
                     $('nav.navbar a, .mobile-navbar a').css('color', 'black');
                     $('i.fas.fa-angle-right , .mobile-navbar .menu-icon').css('color', '#000');
                     $('.social-items .fab , .mobile-navbar').css('color', '#000');
-                    $('.lang .lang-items , ul.sub-menu1').css('border-color', '#000')
+                    $('.lang .lang-items , ul.sub-menu1').css('border-color', '#000');
+                    $('.top-btn').show()
               }
               else {
                     $('nav').addClass('before-scroll');
@@ -78,6 +79,7 @@ $(function(){
                     $('i.fas.fa-angle-right').css('color', '#fff');
                     $('.social-items .fab , .mobile-navbar .menu-icon').css('color', '#fff');
                     $('.lang .lang-items , ul.sub-menu1').css('border-color', '#7e9fff')
+                    $('.top-btn').hide()
               }
         });
 ///////////////////// !::::::::: writer function :::::::::///////////////////
