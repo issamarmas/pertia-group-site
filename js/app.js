@@ -68,7 +68,8 @@ $(function(){
                     $('i.fas.fa-angle-right , .mobile-navbar .menu-icon').css('color', '#000');
                     $('.social-items .fab , .mobile-navbar').css('color', '#000');
                     $('.lang .lang-items , ul.sub-menu1').css('border-color', '#000');
-                    $('.top-btn').fadeIn()
+                    $('.top-btn').css('opacity', '1')
+                    $('.top-btn').css('visibility', 'visible')
               }
               else {
                     $('nav').addClass('before-scroll');
@@ -79,7 +80,8 @@ $(function(){
                     $('i.fas.fa-angle-right').css('color', '#fff');
                     $('.social-items .fab , .mobile-navbar .menu-icon').css('color', '#fff');
                     $('.lang .lang-items , ul.sub-menu1').css('border-color', '#7e9fff')
-                    $('.top-btn').hide()
+                    $('.top-btn').css('visibility', 'hidden')
+                    $('.top-btn').css('opacity', '0')
               }
         });
 ///////////////////// !::::::::: writer function :::::::::///////////////////

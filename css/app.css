@@ -693,11 +693,13 @@ ul.lang-items li a {
     background: #000;
 }
 .top-btn {
+    visibility: hidden;
     position: fixed;
     float: right;
-    display: none;
+    display: block;
     transform: rotate(180deg);
     top: 80vh;
+    opacity: 0;
     left: 95%;
     z-index: 9999;
     margin: 0 auto;
