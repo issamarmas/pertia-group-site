@@ -68,7 +68,7 @@ $(function(){
                     $('i.fas.fa-angle-right , .mobile-navbar .menu-icon').css('color', '#000');
                     $('.social-items .fab , .mobile-navbar').css('color', '#000');
                     $('.lang .lang-items , ul.sub-menu1').css('border-color', '#000');
-                    $('.top-btn').show()
+                    $('.top-btn').fadeIn()
               }
               else {
                     $('nav').addClass('before-scroll');
