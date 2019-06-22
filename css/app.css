@@ -258,7 +258,7 @@ ul.sub-menu1 {
     list-style: none;
     opacity: 0;
     visibility: hidden;
-    border-top: solid 4px #7e9fff;
+    border-top: solid 4px #6f155c;
     background-color:#ffffff;
     -webkit-box-shadow: 0px 0px 9px #0000002b;
     box-shadow: 0px 0px 9px #0000002b;
@@ -303,8 +303,7 @@ header{
     height: 100vh;
     min-height: 625px;
     overflow: hidden;
-    background-color: #ffffff;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23ffffff' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23fbfbfb' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23f8f8f8' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23f4f4f4' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23f1f1f1' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23ededed' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background: radial-gradient( circle farthest-corner at -4.7% -4%, rgba(3,23,157,1) 0%, rgba(97,148,241,1) 90% );
     background-attachment: fixed;
     background-size: cover;
     border-bottom: 4px solid #000;
@@ -358,7 +357,9 @@ header{
     -webkit-animation: pulse .8s;
     background: #ffffff;
     -moz-animation: pulse 1s;
-    color:#516caa !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color:#6f155c !important;
     border-color: #ffffff;
     box-shadow: 0px 0px 20px #ffffff;
     -webkit-box-shadow: 0px 0px 20px 0px #ffffff;
@@ -593,16 +594,21 @@ video {
     top: -15rem;
     left: 0;
 }
-.video-wrap{
 
-     height: 100vh;
-     background-image: radial-gradient( circle farthest-corner at -4.7% -4%,  rgba(3,23,157,1) 0%, rgba(97,148,241,1) 90% );
-     opacity: 0.70;
-     width: 100%;
-     display: block;
-     position: absolute;
-     z-index: 99;
-     min-height: 625px;
+    .video-wrap {
+        height: 100vh;
+        background-image: url(https://image.freepik.com/free-vector/night-flights-from-city-airport-cartoon_1441-2729.jpg);
+        opacity: 0.70;
+        background-size: cover;
+        width: 100%;
+        display: block;
+        position: absolute;
+        z-index: 99;
+        min-height: 625px;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: blur(6px);
+        background-attachment: fixed;
 }
 
 /** vedio media position **/
