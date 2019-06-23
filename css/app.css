@@ -303,7 +303,7 @@ header{
     height: 100vh;
     min-height: 625px;
     overflow: hidden;
-    background: radial-gradient( circle farthest-corner at -4.7% -4%, rgba(3,23,157,1) 0%, rgba(97,148,241,1) 90% );
+    background: #17154f;
     background-attachment: fixed;
     background-size: cover;
     border-bottom: 4px solid #000;
@@ -597,7 +597,7 @@ video {
 
     .video-wrap {
         height: 100vh;
-        background-image: url(https://image.freepik.com/free-vector/night-flights-from-city-airport-cartoon_1441-2729.jpg);
+        background-image: url(https://image.freepik.com/free-vector/isometric-futuristic-city-background_52683-10370.jpg);
         opacity: 0.70;
         background-size: cover;
         width: 100%;
@@ -607,7 +607,7 @@ video {
         min-height: 625px;
         background-repeat: no-repeat;
         background-position: center;
-        filter: blur(6px);
+        filter: blur(7px);
         background-attachment: fixed;
 }
 
