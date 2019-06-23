@@ -79,7 +79,7 @@ $(function(){
                     $('nav.navbar ul li ul a , .mobile-navbar ul li').css('color', 'black');
                     $('i.fas.fa-angle-right').css('color', '#fff');
                     $('.social-items .fab , .mobile-navbar .menu-icon').css('color', '#fff');
-                    $('.lang .lang-items , ul.sub-menu1').css('border-color', '#6f155c')
+                    $('.lang .lang-items , ul.sub-menu1').css('border-color', '#635ab6')
                     $('.top-btn').css('visibility', 'hidden')
                     $('.top-btn').css('opacity', '0')
               }
