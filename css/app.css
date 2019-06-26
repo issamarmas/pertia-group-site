@@ -301,10 +301,11 @@ header{
     height: 100vh;
     min-height: 625px;
     overflow: hidden;
-    background: #17154f;
+    background-image: url(https://cdn.dribbble.com/users/16717/screenshots/5275208/collage96shot.jpg);
+    background-position: center !important;
+    /* transition: all 0ms ease-out 0s; */
     background-attachment: fixed;
     background-size: cover;
-    border-bottom: 4px solid #000;
     box-shadow: 0px 5px 20px #efefef;
     -moz-box-shadow: 0px 5px 20px #efefef;
     -webkit-box-shadow: 0px 5px 20px #efefef;
@@ -414,11 +415,6 @@ header i.fas.fa-chevron-down {
 @media(max-width:1102px){
     header{
         background-position: -250px -170px;
-    }
-}
-@media(max-width:992px){
-    header{
-        background-image: none !important;
     }
 }
 
@@ -595,16 +591,17 @@ video {
 
     .video-wrap {
         height: 100vh;
-        opacity: 0.6;
+        opacity: 0.8;
         background-size: cover;
         width: 100%;
         display: block;
+        filter: brightness(0.5) !important;
         position: absolute;
         z-index: 99;
         min-height: 625px;
         background-repeat: no-repeat;
         background-position: center;
-        background-image: radial-gradient( circle 690px at 51.5% -14.8%, rgba(94,252,236,1) 0%, rgba(0,40,143,1) 90% );
+        background-image: radial-gradient( circle 690px at 51.5% -14.8%, rgb(155, 63, 101) 0%, rgba(0,40,143,1) 90% );
         
 }
 
@@ -631,7 +628,6 @@ video {
 
 .row.max-width {
     width: 82%;
-    border-top: solid 4px #f1f1f1;
     margin: 0 auto !important;
     border-radius: 4px;
     background-color: white;
