@@ -600,7 +600,7 @@ video {
     .video-wrap {
         height: 100vh;
         background-image: url(https://image.freepik.com/free-vector/isometric-futuristic-city-background_52683-10370.jpg);
-        opacity: 0.70;
+        opacity: 0.40;
         background-size: cover;
         width: 100%;
         display: block;
