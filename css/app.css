@@ -204,8 +204,7 @@ ul.lang-items a:hover {
 /* click events sub menu */
 
 
-.lang .lang-items {
-    border-top: solid 4px #635ab6;   
+.lang .lang-items {  
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity 400ms, visibility 400ms;
@@ -258,7 +257,6 @@ ul.sub-menu1 {
     list-style: none;
     opacity: 0;
     visibility: hidden;
-    border-top: solid 4px #635ab6;
     background-color:#ffffff;
     -webkit-box-shadow: 0px 0px 9px #0000002b;
     box-shadow: 0px 0px 9px #0000002b;
@@ -353,13 +351,11 @@ header{
     font-family: dubai bold;
 }
 .btn a:hover {
-    animation: pulse .8s;
-    -webkit-animation: pulse .8s;
     background: #ffffff;
-    -moz-animation: pulse 1s;
+    
     padding-left: 2rem;
     padding-right: 2rem;
-    color:#635ab6 !important;
+    color:#1d4d89!important;
     border-color: #ffffff;
     box-shadow: 0px 0px 20px #ffffff;
     -webkit-box-shadow: 0px 0px 20px 0px #ffffff;
@@ -492,7 +488,7 @@ span.bord {
 
 /**** */
 ul > :first-child {
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
 }
 ul > :last-child {
     border-radius: 0px 0px 4px 4px;
@@ -599,8 +595,7 @@ video {
 
     .video-wrap {
         height: 100vh;
-        background-image: url(https://image.freepik.com/free-vector/isometric-futuristic-city-background_52683-10370.jpg);
-        opacity: 0.40;
+        opacity: 0.6;
         background-size: cover;
         width: 100%;
         display: block;
@@ -609,8 +604,8 @@ video {
         min-height: 625px;
         background-repeat: no-repeat;
         background-position: center;
-        filter: blur(7px);
-        background-attachment: fixed;
+        background-image: radial-gradient( circle 690px at 51.5% -14.8%, rgba(94,252,236,1) 0%, rgba(0,40,143,1) 90% );
+        
 }
 
 /** vedio media position **/
