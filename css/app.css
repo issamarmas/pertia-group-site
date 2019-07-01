@@ -341,9 +341,9 @@ header{
 
 .btn a {
     display: inline-block;
-    border: 2px solid #6c63ff;
+    border: 2px solid #4753f7;
     padding: 8px 23px;
-    background: #6c63ff;
+    background: #4753f7;
     color: #fff !important;
     margin: 0px 4px;
     border-radius: 4px;
@@ -591,7 +591,7 @@ video {
 }
 
     .video-wrap {
-        background-image: radial-gradient( circle 690px at 51.5% -14.8%, rgb(155, 63, 101) 0%, rgba(0,40,143,1) 90% ) !important;
+        background-image: radial-gradient( circle 690px at 51.5% -14.8%, #6c63ff 0%, rgba(0,40,143,1) 90% ) !important;
         height: 100vh;
         opacity: 0.8;
         background-size: cover;
