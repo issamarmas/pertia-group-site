@@ -592,6 +592,7 @@ video {
         background-image: radial-gradient( circle 690px at 51.5% -14.8%, #6c63ff 0%, rgba(0,40,143,1) 90% ) !important;
         height: 100vh;
         opacity: 0.8;
+        background-attachment: fixed;
         background-size: cover;
         width: 100%;
         display: block;
