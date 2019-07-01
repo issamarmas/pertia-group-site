@@ -207,6 +207,7 @@ ul.lang-items a:hover {
 .lang .lang-items {  
     visibility: hidden;
     opacity: 0;
+    transform: skewx(-6deg);
     -webkit-transition: opacity 400ms, visibility 400ms;
     transition: opacity 400ms, visibility 400ms;
     
@@ -225,11 +226,7 @@ ul.lang-items a:hover {
 .lang:hover .lang-items {
     visibility: visible;
     opacity: 1;
-
-    animation: jello .8s;
-    -webkit-animation: jello .8s;
-
-
+    transform: skewX(-6deg);
 }
 .lang:hover i.fas.fa-angle-right {
     transform: rotate(270deg) !important;
@@ -254,6 +251,7 @@ ul.sub-menu1 {
     width: 200px;
     top: 46px;
     position: absolute;
+    transform: skewx(-6deg);
     list-style: none;
     opacity: 0;
     visibility: hidden;
@@ -281,11 +279,11 @@ ul.sub-menu1 a {
 }
 .show-menu:hover .sub-menu1 {
     display: block;
+    transform: skewx(-6deg);
     visibility: visible !important;
     opacity: 1 !important;
 
-    animation: jello .8s;
-    -webkit-animation: jello .8s;
+
 }
 
 /** menu style after scrolling ****/
@@ -301,11 +299,11 @@ header{
     height: 100vh;
     min-height: 625px;
     overflow: hidden;
-    background-image: url(../images/bus.svg);
+    background-image: url(../images/a.svg);
     background-position: center !important;
-    /* transition: all 0ms ease-out 0s; */
     background-attachment: fixed;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     box-shadow: 0px 5px 20px #efefef;
     -moz-box-shadow: 0px 5px 20px #efefef;
     -webkit-box-shadow: 0px 5px 20px #efefef;
@@ -327,8 +325,8 @@ header{
     font-size: 58px;
 }
 .header-contant p {
-    font-size: 18px;
-    max-width: 34rem;
+    font-size: 20px;
+    max-width: 37rem;
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -343,24 +341,27 @@ header{
 
 .btn a {
     display: inline-block;
-    border: 2px solid #fff;
+    border: 2px solid #6c63ff;
     padding: 8px 23px;
+    background: #6c63ff;
     color: #fff !important;
     margin: 0px 4px;
     border-radius: 4px;
+    box-shadow: 0px 0px 120px 0px #3f3d56;
+    -webkit-box-shadow: 0px 0px 120px 0px #3f3d56;
+    -moz-box-shadow: 0px 0px 120px 0px #3f3d56;
+    -o-box-shadow: 0px 0px 120px 0px #3f3d56;
     padding-top: 12px;
     font-family: dubai bold;
+    transform: skewX(-6deg);
 }
 .btn a:hover {
     background: #ffffff;
-    
-    padding-left: 2rem;
-    padding-right: 2rem;
-    color:#1d4d89!important;
+    padding-left: 1.9rem;
+    padding-right: 1.9rem;
+    color: #3f3d56!important;
+    transform: skewX(-6deg);
     border-color: #ffffff;
-    box-shadow: 0px 0px 20px #ffffff;
-    -webkit-box-shadow: 0px 0px 20px 0px #ffffff;
-    -moz-box-shadow: 0px 0px 20px #ffffff;
 }
 i.fab.fa-twitter {
     font-size: 18px;
@@ -381,7 +382,7 @@ header i.fas.fa-chevron-down {
     animation: wobble 1s infinite;
     -webkit-animation: wobble 1s infinite;
     -moz-animation: wobble 1s infinite;
-    color: black;
+    color: #3f3d56;
 }
 
 
@@ -534,7 +535,7 @@ section#group {
     padding: 30px;
     margin-top: 5rem;
     border-radius: 4px;
-    border-top: solid 5px #000;
+    border-top: solid 5px #3f3d56;
     border-bottom: solid 5px #f7f7f7;
     box-shadow: 0px 0px 40px 0px #d6d6d691;
     -webkit-box-shadow: 0px 0px 45px 0px #d6d6d691;
@@ -561,17 +562,17 @@ section#group {
 }
 .contant:hover {
     transform: translateY(-15px);
-    border-top: solid 5px #000;
+    border-top: solid 5px #3f3d56;
 }
 .contant:hover > i {
-    color: #000;
+    color: #3f3d56;
     animation: bounceIn .9s;
     -webkit-animation: bounceIn .9s;
     -moz-animation:  bounceIn .9s;
     -o-animation:  bounceIn .9s;
 }
 .contant:hover > h3 {
-    color: #000;
+    color: #3f3d56;
 }
 #advantages .down-btn {
     top: 16px;
@@ -646,15 +647,13 @@ video {
 /*** swiper slide ***/
 
 #about b {
-    background: #f5f5f5;
-    border-radius: 3px;
-    padding: 0 15;
     position: relative;
+    font-size: 19px;
     font-family: dubai bold;
     font-weight: 900;
-    color: #000;
+    color: #3f3d56;
+    border-bottom: 0px solid;
     padding-top: 3px;
-    border-left: solid 10px #000000;
 }
 @media(max-width:785px){
     .row.max-width {
@@ -690,7 +689,7 @@ ul.lang-items li a {
     top: 14px;
 }
 .top-btn:hover {
-    background: #000;
+    background: #3f3d56;
 }
 .top-btn {
     visibility: hidden;
@@ -706,7 +705,7 @@ ul.lang-items li a {
     color: white !important;
     align-items: center;
     cursor: pointer;
-    background: #000;
+    background: #3f3d56;
     width: 30px;
     text-align: center;
     border-radius: 25px;
@@ -751,19 +750,19 @@ ul.lang-items li a {
   
   /* Handle */
   ::-webkit-scrollbar-thumb{
-    background: rgb(0, 0, 0); 
+    background: #3f3d56; 
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(59, 59, 59); 
+    background: #3f3d56; 
   }
   #about ::-webkit-scrollbar-track {
     background: #f1f1f1; 
     border-radius:4px;
   }
   #about ::-webkit-scrollbar-thumb{
-    background: rgb(0, 0, 0); 
+    background: #3f3d56; 
     border-radius: 2px;
   }
   #about ::-webkit-scrollbar-thumb:hover{

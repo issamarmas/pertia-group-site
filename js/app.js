@@ -65,9 +65,9 @@ $(function(){
                     $('nav').removeClass('before-scroll');
                     $('.navbar , .mobile-navbar').addClass('animated slideInDown');
                     $('nav.navbar a, .mobile-navbar a').css('color', 'black');
-                    $('i.fas.fa-angle-right , .mobile-navbar .menu-icon').css('color', '#000');
-                    $('.social-items .fab , .mobile-navbar').css('color', '#000');
-                    $('.lang .lang-items , ul.sub-menu1').css('border-color', '#000');
+                    $('i.fas.fa-angle-right , .mobile-navbar .menu-icon').css('color', '#3f3d56');
+                    $('.social-items .fab , .mobile-navbar').css('color', '#3f3d56');
+                    $('.lang .lang-items , ul.sub-menu1').css('border-color', '#3f3d56');
                     $('.top-btn').css('opacity', '1')
                     $('.top-btn').css('visibility', 'visible')
               }
