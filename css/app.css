@@ -634,7 +634,7 @@ video {
     background-color: white;
     z-index: 999;
     top: -21.5rem;
-    padding-bottom: 2.5rem !important;
+    padding-bottom: 0.5rem !important;
     position: relative;
     padding: 65px 40px;
     padding-top: 2.5rem;
@@ -851,4 +851,13 @@ ul.lang-items li a {
     display: block;
     border-top-right-radius: 2px;
     border-top-left-radius: 2px;
+}
+.dv.g {
+    bottom: -25px !important;
+    position: absolute;
+    top: auto;
+    border-radius: 4px;
+    z-index: 0;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    right: 0;
 }
