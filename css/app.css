@@ -708,7 +708,8 @@ ul.lang-items li a {
     background: #3f3d56;
     width: 30px;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 4px;
+    transform: skewX(-6deg) rotate(180deg);
     height: 39px;
     font-size: 1.5em;
     justify-content: center;
