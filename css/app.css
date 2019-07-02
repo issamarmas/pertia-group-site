@@ -858,6 +858,11 @@ ul.lang-items li a {
     top: auto;
     border-radius: 4px;
     z-index: 0;
+    box-shadow: -1px 10px 9px 0px #74747408;
+    -moz-box-shadow: -1px 10px 9px 0px #74747408;
+    -o-box-shadow: -1px 10px 9px 0px #74747408;
+    -webkit-box-shadow: -1px 10px 9px 0px #74747408;
+    -ms-box-shadow: -1px 10px 9px 0px #74747408;
     background: linear-gradient(to right, #ffffff, #ffffff);
     right: 0;
 }
